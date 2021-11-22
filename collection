@@ -1,0 +1,11 @@
+.............................................. ............Collection...................................................
+                                      
+                                                  predefined(classes/interfaces)
+                                     Set.....interface..........List                                                                         Stack.......class......Queue
+ HashSet                                                              ArrayList
+
+ SortedSet                                                            LinkedList
+ 
+ *Duplicate values are not allowed                                    *Duplicate values are allowed                                           *LIFO||||||||||||*FIFO
+ 
+ *Data manage in random order                                         *Data manage in sequential order  
