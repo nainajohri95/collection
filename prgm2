@@ -1,0 +1,32 @@
+import java.util.*;
+class listexample
+{
+	void func()
+	{
+		List ls = new ArrayList();
+		
+		ls.add("coke");
+		ls.add("Frooti");
+		ls.add(10);
+		ls.add(5.6);
+		ls.add("Maggiee");
+		ls.add("Frooti");
+
+		System.out.println(ls);
+		System.out.println("No. of item's:"+ls.size());
+		
+		System.out.println("\n\n------------------------\n\n");
+	
+		//ls.remove(1);//delete paticular
+		ls.clear(); //delete all
+		
+
+		System.out.println(ls);
+		System.out.println("No. of item's:"+ls.size());
+	}
+	public static void main(String args[])
+	{
+		listexample obj = new listexample();
+		obj.func();
+	}
+}
